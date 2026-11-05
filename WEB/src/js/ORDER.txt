@@ -1,0 +1,9 @@
+config.js
+core.js
+views.js
+details.js
+actions.js
+account.js
+leaderboards.js
+developer.js
+main.js

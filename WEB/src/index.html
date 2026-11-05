@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Draco Store</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="logo"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#4b32c3"/><path d="M9 28 15 11l5 8 5-8 6 17-7-4h-8z" fill="#ff6b2c"/><circle cx="16" cy="22" r="1.6" fill="#fff"/><circle cx="24" cy="22" r="1.6" fill="#fff"/></svg><span>Draco Store</span></div>
+  <div class="search"><input id="q" type="search" placeholder="Search apps and games" aria-label="Search apps and games"></div>
+  <button class="btn" id="theme" aria-label="Toggle dark mode">Theme</button>
+  <button class="btn pri" id="acct">Sign in</button>
+</header>
+<div class="layout"><nav id="nav" aria-label="Store sections"></nav><main id="main"></main></div>
+<div class="scrim" id="scrim"><div class="sheet" role="dialog" aria-modal="true" id="sheet"></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="js/config.js" defer></script>
+<script src="js/core.js" defer></script>
+<script src="js/views.js" defer></script>
+<script src="js/details.js" defer></script>
+<script src="js/actions.js" defer></script>
+<script src="js/account.js" defer></script>
+<script src="js/leaderboards.js" defer></script>
+<script src="js/developer.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
